@@ -1,0 +1,311 @@
+*
+{
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+}
+::selection
+{
+    color: white;
+    background-color: #3DC3AC;
+}
+hr
+{
+    width: 70%;
+    
+}
+body{
+    margin: 60px 60px 0px 60px;
+}
+.fixprog
+{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    width: 92%;
+}
+.myprogress
+{
+    width: 102%;
+    background-color: #e4e4e4;
+}
+.mybar
+{
+    width: 66%;
+    height: 8px;
+    background-color: #3DC3AC;
+    animation-name: load3;
+    animation-duration: 3s;
+}
+@keyframes load3 {
+from {background-color: #3DC3AC; width:33%}
+to {background-color: #3DC3AC; width:66%}
+}
+
+.bartitle
+{
+    display: flex;    
+    position: relative;
+    top: -26px;
+    left: -15px;
+}
+.bartitle p
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: -23px;
+    margin-left: 8px;
+    margin-top: 22px;
+    font-family: 'Trebuchet MS';
+
+}
+.bartwo p, .barthree p, .barfour p
+{
+    padding-top: 4px;
+}
+.barone
+{
+    height: 30px;
+    width: 80px;
+    background-color: #3DC3AC;
+    border-radius: 50%;
+    margin-right: 30%;
+    margin-top: -4px;
+
+
+}
+.bartwo
+{
+    height: 30px;
+    width: 80px;
+    background-color: #3DC3AC;
+    border-radius: 50%;
+    margin-right: 30%;
+    margin-top: -4px;
+    position: relative;
+    left: 18px;
+
+}
+.barthree
+{
+    height: 30px;
+    width: 80px;
+    background-color: #3DC3AC;
+    border-radius: 50%;
+    margin-right: 30%;
+    margin-top: -4px;
+    position: relative;
+    left: 35px;
+
+}
+.barfour
+{
+    height: 30px;
+    width: 80px;
+    background-color: #e4e4e4;
+    border-radius: 50%;
+    margin-left: 1%;
+    margin-top: -4px;
+    position: relative;
+    left: 54px;
+
+}
+.title
+{
+    color: #3DC3AC;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+.numofticket{
+    color: #707070;
+    font-size: 25px;
+}
+.ystar
+{
+    color: #FBBB0D;
+    font-size: 30px;
+}
+label
+{
+    color: #231F20;
+    font-size: 25px;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.inputstyle
+{
+    border-style: none;
+    border-bottom: 1px solid #929292 ;
+    outline: none;
+    padding: 5px;
+    font-size: 18px;
+    transition: border-bottom 0.1s;
+}
+.inputstyle:hover
+{
+    border-bottom: 2px solid #FBBB0D ;
+}
+.buttstyle 
+{
+    background-color: #FBBB0D;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 3px 5px #dadada00;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.buttstyle:hover
+{
+    position: relative;
+    bottom: 5px;
+    box-shadow: 2px 3px 5px #dadada;
+}
+.view
+{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+input[type=file]::file-selector-button 
+{    
+    background-color: #FBBB0D;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 22px;
+    width: 150px;
+    height: 40px;
+    box-shadow: 2px 3px 5px #dadada00;
+    margin-top: 4px;
+}
+input[type=file]::file-selector-button:hover
+{ 
+    position: relative;
+    bottom: 5px;
+    box-shadow: 2px 3px 5px #dadada;
+}
+.allcard
+{
+    text-align: center;
+}
+.cardlist
+{
+    display: inline;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+.card{
+    width: 180px;
+    position: relative;
+    top: -30px;
+    box-shadow: 0px 3px 6px #dadada00;
+    display: none;
+
+}
+
+.img
+{
+    float: right;
+    position: relative;
+    right: 40px;
+    top: -50px;
+    width:500px;
+}
+.inline
+{
+    display: inline-block;
+    margin-right: 60px;
+}
+.total
+{
+    color: #231F20;
+}
+
+/*popup style and animation*/
+.container
+{
+    position: relative;
+    bottom: 360px;
+    text-align: center;
+
+}
+.popup
+{
+    display: none;
+    background-color: white;
+    border: 1px solid #dadada;
+    box-shadow: 0px 3px 6px #dadada;
+    width: 600px;
+    height: 336px;
+    position: absolute;
+    left:25%;
+}
+.popimg
+{
+    width: 200px;
+}
+.title2
+{
+    color: #3DC3AC;
+    font-size: 30px;
+}
+.message
+{
+    color: #231F20;
+    font-size: 20px;
+    word-spacing: 2px;
+    margin-top: -10px;
+}
+button
+{
+    width: 220px;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+    background-color: #FBBB0D;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0px 3px 6px #dadada00;
+
+}
+button:hover
+{
+    position: relative;
+    bottom: 5px;
+    box-shadow: 2px 3px 5px #dadada;
+}
+
+#visa,#mastar,#express,#discover
+{
+    width: 400px;
+    height: 50px;
+    color: #3DC3AC;
+    font-size: 18px;
+    padding: 6px;
+    font-weight: bolder;
+    display: none;
+}
+#invalid
+{
+    width: 400px;
+    height: 50px;
+    color: #b81212;
+    font-size: 18px;
+    padding: 6px;
+    font-weight: bolder;
+    display: none;
+}
